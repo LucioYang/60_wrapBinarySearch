@@ -17,6 +17,8 @@ Recursive Case:
 ```
 If no, If no, compare findMe to the element at index pageToCheck.
 - If the comparison returns 0, return pageToCheck.
-- If the comparison returns an int less than zero, return the index of the given element in the interval (low) to (pageToCheck - 1).
-- If the comparison returns an int greater than zero, return the index of the given element in the interval (pageToCheck + 1) to (hi).
+- If the comparison returns an int less than zero, return the index of the given element in the 
+interval (low) to (pageToCheck - 1).
+- If the comparison returns an int greater than zero, return the index of the given element in the 
+interval (pageToCheck + 1) to (hi).
 ```
